@@ -1,0 +1,128 @@
+.header
+{
+    background-color: rgb(12, 12, 58);
+    color: white;
+}
+
+.navigacija
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.prva_lista
+{
+    display: flex;
+    list-style-type: none;
+}
+
+.clan_prve
+{
+    margin-right: 40px;
+}
+
+.ispod_navigacije
+{
+    display: flex;
+    flex-direction:row ;
+}
+
+.tekst_ispodnav
+{
+    padding-left: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.prvi_paragraf
+{
+    width: 400px;
+    margin-top: -20px;
+}
+
+.prvo_dugme
+{
+    text-align: center;
+    padding: 5px 10px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    width: 100px;
+}
+
+.prva_slika
+{
+    margin-left: 400px;
+}
+
+.ispod_headera
+{
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cetiri_elementa
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.div_poslovica
+{
+    display: flex;
+    background-color: silver;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.poziv_akcija
+{
+    margin: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plavi_div
+{
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    padding: 30px;
+    width: 700px;
+    height: 70px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.drugo_dugme
+{
+    margin-top: 25px;
+    margin-right: 50px;
+}
+
+footer
+{
+    background-color: rgb(12, 12, 58);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
